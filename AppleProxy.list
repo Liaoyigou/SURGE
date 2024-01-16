@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,kin6c1.com
 DOMAIN-SUFFIX,iz8qkg.com
 #自定义部分规则 
 DOMAIN-KEYWORD,haiwaikan
+DOMAIN-KEYWORD,netlify.app
 DOMAIN-SUFFIX,cdn.kin6c1.com
 DOMAIN-SUFFIX,cdn.v82u1l.com
 DOMAIN-SUFFIX,m3u.haiwaikan.com
