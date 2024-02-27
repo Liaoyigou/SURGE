@@ -1,10 +1,9 @@
 # NAME: Apple TV 部分规则 
 # SyncnextUnbreak
+payload:
 DOMAIN-SUFFIX,movie.douban.com
 DOMAIN-SUFFIX,mddcloud.com.cn
 DOMAIN-SUFFIX,aliyundrive.asia
-DOMAIN-SUFFIX,v.ddys.zip
-DOMAIN-SUFFIX,v.ddys.pro
 DOMAIN-SUFFIX,ddys.info
 DOMAIN-SUFFIX,ddys.wiki
 DOMAIN-SUFFIX,ddys.pro
@@ -15,29 +14,36 @@ DOMAIN-SUFFIX,cz.cz01.site
 DOMAIN-SUFFIX,kczybf.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,ctyunxs.cn
 DOMAIN-SUFFIX,hls.aoxtv.com
 DOMAIN-KEYWORD,ffzy-play
 DOMAIN-KEYWORD,bfzycdn.com
 DOMAIN-KEYWORD,lzcdn
+DOMAIN-KEYWORD,v.cdnlz
 DOMAIN-KEYWORD,lz-cdn
 DOMAIN-KEYWORD,default.akamaized.net
 DOMAIN-KEYWORD,vip.ffzy-online
+DOMAIN-KEYWORD,vip.ffzy-play
 DOMAIN-KEYWORD,ffzyread
 DOMAIN-SUFFIX,kuaikan-api.com
 DOMAIN-SUFFIX,czzy88.com
-DOMAIN-SUFFIX,cz01.vip
+DOMAIN-SUFFIX,czzy22.com
+DOMAIN-SUFFIX,czzy66.com
 DOMAIN-SUFFIX,CZZ9.COM
-DOMAIN-SUFFIX,czzy55.com
 DOMAIN-SUFFIX,v1.ax
 IP-CIDR,216.180.0.0/16
 IP-CIDR,103.160.204.120/32
 IP-CIDR,138.199.9.104/32
+DOMAIN-SUFFIX,wogg.link
+DOMAIN-SUFFIX,xxooo.cf
+DOMAIN-SUFFIX,wogg.xyz
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-KEYWORD,tt.cuc.myqcloud.com.cn
+
 #自定义部分网站
 DOMAIN-KEYWORD,nkvod
 DOMAIN-SUFFIX,jmsooo.com
-DOMAIN-SUFFIX,wogg.link
-DOMAIN-SUFFIX,wogg.xyz
 DOMAIN-SUFFIX,tvfan.xxooo.cf
 #
 #软件网站白名单
@@ -45,16 +51,7 @@ DOMAIN,macked.app
 DOMAIN-KEYWORD,macked
 #
 # NAME: Apple
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-14 16:52:34
-# DOMAIN: 9
-# DOMAIN-KEYWORD: 7
-# DOMAIN-SUFFIX: 1549
-# IP-CIDR: 10
-# PROCESS-NAME: 7
-# USER-AGENT: 23
-# TOTAL: 1605
+
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
