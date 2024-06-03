@@ -23,10 +23,6 @@ DOMAIN-SUFFIX,iz8qkg.com
 DOMAIN-SUFFIX,v82u1l.com
 DOMAIN-SUFFIX,ikzybf.com
 
-#公益服
-DOMAIN-SUFFIX,jmsooo.com
-DOMAIN-SUFFIX,imetyou.top
-
 #自定义部分规则 
 DOMAIN-KEYWORD,haiwaikan
 DOMAIN-KEYWORD,netlify.app
