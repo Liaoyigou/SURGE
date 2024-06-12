@@ -35,11 +35,9 @@ DOMAIN,nivod4.tv
 DOMAIN,ulivetv.net
 
 #黑木耳资源（直连）
-DOMAIN,heimuer.tv
 DOMAIN-SUFFIX,heimuer.tv
 DOMAIN-SUFFIX,heimuer.pro
 DOMAIN-KEYWORD,heimuer
-
 
 # OpenAI
 DOMAIN,cdn.auth0.com
