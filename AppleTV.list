@@ -192,6 +192,10 @@ DOMAIN,vip.ffzy-play3.com
 DOMAIN,vip.ffzyread.com
 DOMAIN,www.imgikzy.com
 
+#黑木耳资源（直连）
+DOMAIN-SUFFIX,heimuer.tv
+DOMAIN-SUFFIX,heimuer.pro
+DOMAIN-KEYWORD,heimuer
 
 DOMAIN-SUFFIX,v1.ax
 IP-CIDR,216.180.0.0/16
