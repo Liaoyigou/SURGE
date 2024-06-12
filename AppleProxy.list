@@ -26,9 +26,13 @@ DOMAIN-SUFFIX,ikzybf.com
 #自定义部分规则 
 DOMAIN-KEYWORD,haiwaikan
 DOMAIN-KEYWORD,netlify.app
-
 DOMAIN-SUFFIX,m3u.haiwaikan.com
 DOMAIN-SUFFIX,histar.tv
+
+#黑木耳资源（直连）
+DOMAIN-SUFFIX,heimuer.tv
+DOMAIN-SUFFIX,heimuer.pro
+DOMAIN-KEYWORD,heimuer
 
 # OpenAI
 DOMAIN,cdn.auth0.com
