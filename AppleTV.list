@@ -208,6 +208,12 @@ DOMAIN-SUFFIX,wobge.run.goorm.io
 DOMAIN-SUFFIX,mius.uk
 DOMAIN-SUFFIX,zxzja.com
 
+#黑木耳资源（直连）
+DOMAIN,heimuer.tv
+DOMAIN-SUFFIX,heimuer.tv
+DOMAIN-SUFFIX,heimuer.pro
+DOMAIN-KEYWORD,heimuer
+
 #公益服
 DOMAIN-SUFFIX,jmsooo.com
 DOMAIN-SUFFIX,imetyou.top
