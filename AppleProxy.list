@@ -29,15 +29,6 @@ DOMAIN-KEYWORD,netlify.app
 
 DOMAIN-SUFFIX,m3u.haiwaikan.com
 DOMAIN-SUFFIX,histar.tv
-DOMAIN,malaysla.com
-DOMAIN,biggggg.com
-DOMAIN,nivod4.tv
-DOMAIN,ulivetv.net
-
-#黑木耳资源（直连）
-DOMAIN-SUFFIX,heimuer.tv
-DOMAIN-SUFFIX,heimuer.pro
-DOMAIN-KEYWORD,heimuer
 
 # OpenAI
 DOMAIN,cdn.auth0.com
