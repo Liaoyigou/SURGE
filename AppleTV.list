@@ -1,11 +1,6 @@
 # NAME: Apple TV 部分规则 
 # SyncnextUnbreak
 
-#黑木耳资源（直连）
-DOMAIN-SUFFIX,heimuer.tv
-DOMAIN-SUFFIX,heimuer.pro
-DOMAIN-KEYWORD,heimuer
-
 #玩偶哥哥（直连）
 DOMAIN-KEYWORD,wogg
 DOMAIN-SUFFIX,wogg.link
