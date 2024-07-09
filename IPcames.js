@@ -1,7 +1,7 @@
 [Script]
 
 # Intercept in-purchase verification requests and process them using scripts
-http-response ^https:\/\/s-api\.ipcams\.app\/sentry\/api\/2\/envelope\/ Script-path = https://path/to/your/script.js,requires-body=true,timeout=10,tag=UnlockMembership
+http-response ^https:\/\/s-api\.ipcams\.app\/sentry\/api\/2\/envelope\/ Script-path = https://raw.githubusercontent.com/Liaoyigou/SURGE/master/IPcames.js,requires-body=true,timeout=10,tag=UnlockMembership
 
 [MITM]
 
