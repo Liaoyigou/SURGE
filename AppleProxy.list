@@ -14,19 +14,16 @@ DOMAIN-SUFFIX,bfvvs.com
 DOMAIN-SUFFIX,cdn.venus7202.com
 DOMAIN-SUFFIX,cdn.ceres9350.com
 DOMAIN-SUFFIX,cdn.efhie.com
-DOMAIN-SUFFIX,czzy.site
-DOMAIN-SUFFIX,cz01.vip
 DOMAIN-SUFFIX,picsum.photos
 DOMAIN-SUFFIX,ibb.co
-DOMAIN-SUFFIX,kin6c1.com
-DOMAIN-SUFFIX,iz8qkg.com
+#黑木耳
+DOMAIN-SUFFIX,yk7ynj4ts.com
+DOMAIN-SUFFIX,9t5af8lts.com
 DOMAIN-SUFFIX,v82u1l.com
 DOMAIN-SUFFIX,ikzybf.com
 
 #自定义部分规则 
-DOMAIN-KEYWORD,haiwaikan
 DOMAIN-KEYWORD,netlify.app
-DOMAIN-SUFFIX,m3u.haiwaikan.com
 DOMAIN-SUFFIX,histar.tv
 
 #公益服
