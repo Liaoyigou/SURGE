@@ -7,3 +7,6 @@ http://live.iill.top/douyin.php?id=1803092694
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://tv.iill.top/LOGO/INSUN888888&douyin&logo" group-title="•抖音「娱乐」",影
 http://live.iill.top/douyin.php?id=INSUN888888
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://tv.iill.top/LOGO/1996YINER&douyin&logo" group-title="•抖音「娱乐」",音儿
+http://live.iill.top/douyin.php?id=1996YINER
