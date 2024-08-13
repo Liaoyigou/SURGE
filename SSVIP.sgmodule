@@ -2,6 +2,8 @@
 #!desc=Self-use software
 
 [Script]
+# >IPcams
+IPcams = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/fb935b5281d456cbda387e850e5bdac2/raw/revenuecat.js
 
 # >NotBoring
 NotBoring = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/NotBoring.js, requires-body=true, max-size=-1, timeout=60
@@ -9,10 +11,6 @@ NotBoring = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(r
 NotBoring = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/NotBoring.js, timeout=60
 # iTunes合集
 iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
-
-# >IPcams
-IPcams = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/fb935b5281d456cbda387e850e5bdac2/raw/revenuecat.js
-
 # Revenuecat合集
 Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 {{{Revenuecat}}}= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
