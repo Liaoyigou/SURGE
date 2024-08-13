@@ -3,6 +3,10 @@
 
 [Script]
 
+# >NotBoring
+NotBoring = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/NotBoring.js, requires-body=true, max-size=-1, timeout=60
+
+NotBoring = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/NotBoring.js, timeout=60
 # iTunes合集
 iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
 
