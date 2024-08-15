@@ -18,7 +18,7 @@ Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:
 #清缓存= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 
 
-
+Documents = type=http-request, pattern=https://license.pdfexpert.com/api/2.0/documents/subscription/refresh, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Documents.js, requires-body=true, max-size=-1, timeout=60
 # >LimiCam(复古相机）
 lc = type=http-response, pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts), script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/lc.js, requires-body=true, max-size=-1, timeout=60
 
@@ -41,4 +41,4 @@ Foodie = type=http-response, pattern=^https?:\/\/purchase-foodiecn-api.yiruikeco
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com,schedule-api.julanling.com,security.wechat.com, weixin110.qq.com,purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com, purchase-tianyan-api.tianyancam.com, purchase-foodiecn-api.yiruikecorp.com,ap*.intsig.net
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com,schedule-api.julanling.com,security.wechat.com, weixin110.qq.com,purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com, purchase-tianyan-api.tianyancam.com, purchase-foodiecn-api.yiruikecorp.com,ap*.intsig.net,*.pdfexpert.com
