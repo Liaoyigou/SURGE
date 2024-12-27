@@ -16,17 +16,9 @@ revenuecat2 = type=http-request,pattern= ^https:\/\/api\.(revenuecat|rc-backup)\
 # hostname = buy.itunes.apple.com
 iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
 
-# iTunes合集
-# iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
-# Revenuecat合集
-# Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-{{{Revenuecat}}}= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+# 极简汇率
+极简汇率 = type=http-response, pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js, requires-body=true, max-size=0
 
-
-#清缓存= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-
-
-Documents = type=http-request, pattern=https://license.pdfexpert.com/api/2.0/documents/subscription/refresh, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Documents.js, requires-body=true, max-size=-1, timeout=60
 # >LimiCam(复古相机）
 lc = type=http-response, pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts), script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/lc.js, requires-body=true, max-size=-1, timeout=60
 
