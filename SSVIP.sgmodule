@@ -5,13 +5,21 @@
 # >IPcams
 revenuecat = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liaoyigou/SURGE/refs/heads/master/revenuecat.js
 # >NotBoring
-NotBoring = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/NotBoring.js, requires-body=true, max-size=-1, timeout=60
 
-NotBoring = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/NotBoring.js, timeout=60
+# Revenuecat解锁系列
+# hostname = api.revenuecat.com, api.rc-backup.com
+revenuecat1 = type=http-response,pattern= ^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
+revenuecat2 = type=http-request,pattern= ^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),requires-body=0,max-size=0,script-path= https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js,script-update-interval=0
+
+#************************************#
+# iTunes解锁系列
+# hostname = buy.itunes.apple.com
+iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+
 # iTunes合集
-iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+# iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
 # Revenuecat合集
-Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+# Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 {{{Revenuecat}}}= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 
 
@@ -44,4 +52,4 @@ felotk = type=http-request, pattern=^https?:\/\/translator.felo.me\/api\/transla
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com,schedule-api.julanling.com,security.wechat.com, weixin110.qq.com,purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com, purchase-tianyan-api.tianyancam.com, purchase-foodiecn-api.yiruikecorp.com,ap*.intsig.net,*.pdfexpert.com,accounts.felo.me, translator.felo.me
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com,api.rc-backup.com,schedule-api.julanling.com,security.wechat.com, weixin110.qq.com,purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com, purchase-tianyan-api.tianyancam.com, purchase-foodiecn-api.yiruikecorp.com,ap*.intsig.net,*.pdfexpert.com,accounts.felo.me, translator.felo.me
