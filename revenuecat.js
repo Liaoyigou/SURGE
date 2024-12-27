@@ -3,7 +3,7 @@ revenuecat 通用模板
 
 quanx
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-request-body https://gist.githubusercontent.com/Yu9191/fb935b5281d456cbda387e850e5bdac2/raw/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-request-body https://raw.githubusercontent.com/Liaoyigou/SURGE/refs/heads/master/revenuecat.js
 [mimt]
 hostname = api.revenuecat.com
 
