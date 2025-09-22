@@ -138,3 +138,11 @@ DOMAIN, chat.mistral.ai
 DOMAIN, console.mistral.ai
 DOMAIN-SUFFIX, mistral.ai
 
+
+
+# Ibkr 投资
+DOMAIN, api.ibkr.com
+DOMAIN-SUFFIX,ibkr.com.cn
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-KEYWORD,ibkr
+
