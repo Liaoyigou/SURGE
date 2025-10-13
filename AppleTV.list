@@ -288,3 +288,5 @@ DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,webtest.net
 DOMAIN-KEYWORD,speedtest
 USER-AGENT,SpeedTest*
+
+DOMAIN-SUFFIX,204cloud.com
