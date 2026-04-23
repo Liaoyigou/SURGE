@@ -99,8 +99,41 @@ DOMAIN, chat.mistral.ai
 DOMAIN, console.mistral.ai
 DOMAIN-SUFFIX, mistral.ai
 
+# ===== 海外 AI / 建议代理 =====
+DOMAIN,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+
+DOMAIN,gemini.google.com
+DOMAIN,ai.google.dev
+DOMAIN,accounts.google.com
+
+DOMAIN,copilot.microsoft.com
+DOMAIN,www.bing.com
+
+DOMAIN-SUFFIX,perplexity.ai
+
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+DOMAIN-SUFFIX,midjourney.com
+# 如使用 Midjourney Discord Bot，再补：
+# DOMAIN-SUFFIX,discord.gg
+# DOMAIN-SUFFIX,discord.com
+
+DOMAIN-SUFFIX,meta.ai
+
+DOMAIN-SUFFIX,deepseek.com
+
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.ai
 
 
+#tikok
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
