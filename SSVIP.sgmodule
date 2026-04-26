@@ -51,5 +51,6 @@ Mixgram = type=http-response, pattern=^https?:\/\/.+\.appsflyersdk\.com\/api\/v\
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com,api.rc-backup.com,schedule-api.julanling.com,security.wechat.com, weixin110.qq.com,purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com, purchase-tianyan-api.tianyancam.com, purchase-foodiecn-api.yiruikecorp.com,ap*.intsig.net,*.pdfexpert.com,accounts.felo.me, translator.felo.me, *-slidebox-ios-prod.cloudfunctions.net
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com,api.rc-backup.com,schedule-api.julanling.com,security.wechat.com, weixin110.qq.com,purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com, purchase-tianyan-api.tianyancam.com, purchase-foodiecn-api.yiruikecorp.com,ap*.intsig.net,*.pdfexpert.com,accounts.felo.me, translator.felo.me, *-slidebox-ios-prod.cloudfunctions.net,*.cloudfunctions.net, *.appsflyersdk.com
+
 
