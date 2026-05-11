@@ -25,12 +25,7 @@ DOMAIN-SUFFIX,doubanio.com
 #同步数据
 DOMAIN,gateway.icloud.com
 
-#Apple TV
 
-DOMAIN-SUFFIX,023168.xyz
-DOMAIN-SUFFIX,223789.xyz
-DOMAIN-SUFFIX,204cloud.com
-IP-CIDR,209.146.116.146/32
 #
 #软件网站白名单
 DOMAIN,macked.app
