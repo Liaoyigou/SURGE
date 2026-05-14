@@ -45,6 +45,38 @@ IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
 
+DOMAIN-SUFFIX,anthropic.com,CLAUDE0409
+DOMAIN-SUFFIX,claude.ai,CLAUDE0409
+DOMAIN-SUFFIX,claude.com,CLAUDE0409
+DOMAIN-SUFFIX,clau.de,CLAUDE0409
+DOMAIN-SUFFIX,claudemcpclient.com,CLAUDE0409
+DOMAIN-SUFFIX,claudeusercontent.com,CLAUDE0409
+
+# CDN 和静态资源
+DOMAIN,servd-anthropic-website.b-cdn.net,CLAUDE0409
+DOMAIN,anthropic.com.cdn.cloudflare.net,CLAUDE0409
+
+# 认证 / 内容
+DOMAIN,anthropic.auth0.com,CLAUDE0409
+DOMAIN,anthropic-com.ghost.io,CLAUDE0409
+
+# 监控和遥测
+DOMAIN-SUFFIX,sentry.io,CLAUDE0409
+DOMAIN-SUFFIX,statsigapi.net,CLAUDE0409
+DOMAIN,browser-intake-us5-datadoghq.com,CLAUDE0409
+DOMAIN-KEYWORD,datadog,CLAUDE0409
+DOMAIN-KEYWORD,sift,CLAUDE0409
+
+# 客服 / 第三方 widget
+DOMAIN-SUFFIX,intercom.io,CLAUDE0409
+DOMAIN-SUFFIX,intercomcdn.com,CLAUDE0409
+DOMAIN,cdn.usefathom.com,CLAUDE0409
+
+# IP 段 / ASN 兜底
+IP-CIDR,160.79.104.0/21,CLAUDE0409,no-resolve
+IP-CIDR6,2607:6bc0::/32,CLAUDE0409,no-resolve
+IP-ASN,399358,CLAUDE0409,no-resolve
+
 # 2024-07-25 14:56:45
 # ChatGPT
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-eastus-), (DOMAIN-SUFFIX, webpubsub.azure.com))
