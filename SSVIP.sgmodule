@@ -4,17 +4,17 @@
 [Script]
 # >IPcams
 revenuecat = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liaoyigou/SURGE/refs/heads/master/revenuecat.js
-# >NotBoring
 
 # Revenuecat解锁系列
 # hostname = api.revenuecat.com, api.rc-backup.com
-# revenuecat1 = type=http-response,pattern= ^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
-revenuecat2 = type=http-request,pattern= ^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),requires-body=0,max-size=0,script-path= https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js,script-update-interval=0
+Reheji = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js, requires-body=true, max-size=-1, timeout=60
+
+Reheji = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js, timeout=60
 
 #************************************#
 # iTunes解锁系列
 # hostname = buy.itunes.apple.com
-iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+iTunes = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js, requires-body=true, max-size=-1, timeout=60
 
 # 极简汇率
 极简汇率 = type=http-response, pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip, script-path=https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js, requires-body=true, max-size=0
@@ -31,14 +31,10 @@ ffxj = type=http-response, pattern=^https?:\/\/api.revenuecat.com\/v1\/(receipts
 # >WeChat 110(302重定向）
 解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js,argument=useCache=true&forceRedirect=false
 
-# >foodie - 美食相机（永久会员）
-Foodie = type=http-response, pattern=^https?:\/\/purchase-foodiecn-api.yiruikecorp.com\/v1\/purchase\/subscription\/subscriber\/status, script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/Foodie.js, requires-body=true, max-size=-1, timeout=60
+
 
 # >扫描全能王
 扫描全能王=type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
-
-# >felo实时翻译-同传与语音字幕
-felo = type=http-response, pattern=^https?:\/\/(translator|accounts).felo.me\/api\/user.*$, script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/felo.js, requires-body=true, max-size=-1, timeout=60
 
 felotk = type=http-request, pattern=^https?:\/\/translator.felo.me\/api\/translation\/thirdToken\?token_channel, script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/felotk.js, timeout=60
 
